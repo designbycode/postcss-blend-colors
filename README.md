@@ -4,6 +4,8 @@
 
 ## PostCSS Blend Colors Plugin
 
+[![NPM](https://nodei.co/npm/postcss-blend-colors.png?mini=true)](https://nodei.co/npm/postcss-blend-colors/)
+
 ![npm](https://img.shields.io/npm/v/postcss-blend-colors)
 ![npm](https://img.shields.io/npm/dt/postcss-blend-colors)
 ![GitHub](https://img.shields.io/github/license/designbycode/postcss-blend-colors)
@@ -12,8 +14,6 @@
 ![ts](https://badgen.net/badge/Built%20With/TypeScript/blue)
 [![GitHub stars](https://img.shields.io/github/stars/DesignByCode/postcss-color-mix?style=social)](https://github.com/DesignByCode/postcss-color-mix/stargazers)
 [![HitCount](https://hits.dwyl.com/designbycode/postcss-color-mix.svg?style=flat)](http://hits.dwyl.com/designbycode/postcss-color-mix)
-
-[![NPM](https://nodei.co/npm/@designbycode/postcss-color-mix.png)](https://nodei.co/npm/@designbycode/postcss-color-mix/)
 
 The PostCSS Blend Colors plugin is designed to simplify the process of blending colors within CSS declarations. It utilizes the chroma-js library to perform color blending operations, allowing developers to define custom color blends
 using a mix() function in their stylesheets.
@@ -46,22 +46,22 @@ To use this plugin, you need to have Tailwind CSS installed in your project. If 
 #### Using pnpm
 
 ```bash
-pnpm add @designbycode/postcss-color-mix
+pnpm add postcss-blend-colors
 ```
 
 #### Using npm
 
 ```bash
-npm install @designbycode/postcss-color-mix
+npm install postcss-blend-colors
 ```
 
 #### Using yarn
 
 ```bash
-yarn add @designbycode/postcss-color-mix
+yarn add postcss-blend-colors
 ```
 
-## How to setup
+## How to set up
 
 ### In postcss.config.js
 
@@ -96,7 +96,7 @@ Contributions to this plugin are welcome! If you encounter any issues, have feat
 ### Contributors
 
 <a href="https://github.com/DesignByCode/postcss-color-mix/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=DesignByCode/postcss-color-mix" />
+  <img src="https://contrib.rocks/image?repo=DesignByCode/postcss-blend-colors" />
 </a>
 
 ## License
